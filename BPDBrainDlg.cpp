@@ -801,8 +801,8 @@ void CBPDBrainDlg::OnIntegrateButton()
 	for (idelay=1; idelay<=Ndelay; idelay+=1)
 	{
 		// Difficult-to-compute tasking
-	    xsin = sin(idelay) * cos(idelay);
-	    xsin = sin(idelay) / cos(idelay);
+	    xsin = sin((double)idelay) * cos((double)idelay);
+	    xsin = sin((double)idelay) / cos((double)idelay);
 
 
 	}   // End of delay loop
