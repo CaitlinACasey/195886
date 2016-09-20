@@ -1,0 +1,100 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: BPDBrain - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/BPDBrain.res" /d "NDEBUG" /d "_AFXDLL" "c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrain.rc"" 
+Creating temporary file "c:\windows\TEMP\RSP8390.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/BPDBrain.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BADlg.cpp"
+"c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrain.cpp"
+"c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp"
+"c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\CEADlg.cpp"
+"c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\DLPAGDlg.cpp"
+"c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\ICM1Dlg.cpp"
+"c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\ICM2Dlg.cpp"
+"c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\INTDlg.cpp"
+"c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\INTEGRATEDlg.cpp"
+"c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\VLPAGDlg.cpp"
+"c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\vmPFCDlg.cpp"
+]
+Creating command line "cl.exe @c:\windows\TEMP\RSP8390.TMP" 
+Creating temporary file "c:\windows\TEMP\RSP8391.TMP" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/BPDBrain.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\StdAfx.cpp"
+]
+Creating command line "cl.exe @c:\windows\TEMP\RSP8391.TMP" 
+Creating temporary file "c:\windows\TEMP\RSP8392.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/BPDBrain.pdb" /machine:I386 /out:"Release/BPDBrain.exe" 
+".\Release\BADlg.obj"
+".\Release\BPDBrain.obj"
+".\Release\BPDBrainDlg.obj"
+".\Release\CEADlg.obj"
+".\Release\DLPAGDlg.obj"
+".\Release\ICM1Dlg.obj"
+".\Release\ICM2Dlg.obj"
+".\Release\INTDlg.obj"
+".\Release\INTEGRATEDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\VLPAGDlg.obj"
+".\Release\vmPFCDlg.obj"
+".\Release\BPDBrain.res"
+]
+Creating command line "link.exe @c:\windows\TEMP\RSP8392.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BADlg.cpp
+BPDBrain.cpp
+BPDBrainDlg.cpp
+c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp(924) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp(926) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp(927) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp(928) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp(929) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp(930) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp(931) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp(932) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp(933) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp(934) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp(935) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp(936) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp(462) : warning C4101: 'irandom' : unreferenced local variable
+c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp(1520) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp(1522) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp(1523) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp(1524) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp(1525) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp(1526) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp(1527) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp(1528) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp(1529) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp(1530) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp(1531) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\CARL\BPD\SIMULATIONS\BPD BRAIN\BPDBrain\BPDBrainDlg.cpp(1532) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+CEADlg.cpp
+DLPAGDlg.cpp
+ICM1Dlg.cpp
+ICM2Dlg.cpp
+INTDlg.cpp
+INTEGRATEDlg.cpp
+VLPAGDlg.cpp
+vmPFCDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+BPDBrain.exe - 0 error(s), 25 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,429 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\BPDBrain.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\BPDBrain.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About BPDBrain"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "BPDBrain Version 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2008",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_BPDBRAIN_DIALOG DIALOGEX 0, 0, 665, 439
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE | WS_EX_APPWINDOW
+CAPTION "BPD Brain"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "vmPFC",IDC_VMPFC_BUTTON,7,7,40,16,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "BA",IDC_BA_BUTTON,48,7,34,16,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "ICM1",IDC_ICM1_BUTTON,82,7,36,16,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "ICM2",IDC_ICM2_BUTTON,118,7,39,16,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "CeA",IDC_CEA_BUTTON,156,7,40,16,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "vlPAG",IDC_VLPAG_BUTTON,195,7,48,16,0,
+                    WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "dlPAG",IDC_DLPAG_BUTTON,243,7,37,16,0,
+                    WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Integrate",IDC_INTEGRATE_BUTTON,280,7,50,16,0,
+                    WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Erase",IDC_ERASE_BUTTON,330,7,37,16,0,
+                    WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Quit",IDC_QUIT_BUTTON,450,7,30,16,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Print To File",IDC_PRINT_BUTTON,390,7,52,16,0,
+                    WS_EX_DLGMODALFRAME
+END
+
+IDD_VMPFC_DIALOG DIALOGEX 0, 0, 289, 166
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "vmPFC Parameters"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,232,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,232,24,50,14
+    LTEXT           "A_vmPFC =",IDC_STATIC,41,30,38,8
+    LTEXT           "B_vmPFC =",IDC_STATIC,41,50,38,8
+    LTEXT           "C_vmPFC =",IDC_STATIC,41,71,38,8
+    LTEXT           "I_vmPFC =",IDC_STATIC,97,105,36,8
+    LTEXT           "zo_vmPFC =",IDC_STATIC,88,124,41,8
+    EDITTEXT        IDC_A_VMPFC_EDIT,79,27,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_B_VMPFC_EDIT,79,48,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_C_VMPFC_EDIT,79,68,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_I_VMPFC_EDIT,133,102,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Z_VMPFC_O_EDIT,133,122,40,14,ES_AUTOHSCROLL
+END
+
+IDD_BA_DIALOG DIALOGEX 0, 0, 335, 210
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "BA Parameters"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,277,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,277,24,50,14
+    LTEXT           "A_BA = ",IDC_STATIC,47,31,27,8
+    LTEXT           "B_BA = ",IDC_STATIC,47,54,27,8
+    LTEXT           "C_BA = ",IDC_STATIC,47,76,27,8
+    LTEXT           "I_BA =",IDC_STATIC,100,126,22,8
+    EDITTEXT        IDC_A_BA_EDIT,74,27,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_B_BA_EDIT,74,51,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_C_BA_EDIT,74,73,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_I_BA_EDIT,126,123,40,14,ES_AUTOHSCROLL
+END
+
+IDD_ICM1_DIALOG DIALOGEX 0, 0, 309, 215
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "ICM1 Parameters"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,252,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,252,24,50,14
+    LTEXT           "A_ICM1 = ",IDC_STATIC,62,32,34,8
+    LTEXT           "B_ICM1 = ",IDC_STATIC,62,58,34,8
+    LTEXT           "C_ICM1 = ",IDC_STATIC,62,83,34,8
+    EDITTEXT        IDC_A_ICM1_EDIT,96,28,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_B_ICM1_EDIT,96,55,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_C_ICM1_EDIT,96,80,40,14,ES_AUTOHSCROLL
+END
+
+IDD_ICM2_DIALOG DIALOGEX 0, 0, 299, 215
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "ICM2 Parameters"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,242,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,242,24,50,14
+    LTEXT           "A_ICM2 = ",IDC_STATIC,47,39,34,8
+    LTEXT           "B_ICM2 = ",IDC_STATIC,47,61,34,8
+    LTEXT           "I_LA = ",IDC_STATIC,103,119,24,8
+    EDITTEXT        IDC_A_ICM2_EDIT,81,36,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_B_ICM2_EDIT,81,59,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ILA_EDIT,127,116,40,14,ES_AUTOHSCROLL
+END
+
+IDD_CEA_DIALOG DIALOGEX 0, 0, 309, 207
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "CeA Parameters"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,252,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,252,24,50,14
+    LTEXT           "A_CeA = ",IDC_STATIC,55,37,31,8
+    LTEXT           "B_CeA = ",IDC_STATIC,55,65,31,8
+    LTEXT           "C_CeA = ",IDC_STATIC,55,92,31,8
+    EDITTEXT        IDC_A_CEA_EDIT,86,34,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_B_CEA_EDIT,86,62,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_C_CEA_EDIT,86,89,40,14,ES_AUTOHSCROLL
+END
+
+IDD_VLPAG_DIALOG DIALOGEX 0, 0, 301, 208
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "vlPAG Parameters"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,244,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,244,24,50,14
+    LTEXT           "A_vlPAG = ",IDC_STATIC,54,36,38,8
+    LTEXT           "B_vlPAG = ",IDC_STATIC,54,64,38,8
+    LTEXT           "C_vlPAG = ",IDC_STATIC,54,89,38,8
+    LTEXT           "I_PAGi = ",IDC_STATIC,110,134,31,8
+    EDITTEXT        IDC_A_VLPAG_EDIT,92,33,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_B_VLPAG_EDIT,92,61,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_C_VLPAG_EDIT,92,87,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_IPAGI_EDIT,141,131,40,14,ES_AUTOHSCROLL
+END
+
+IDD_DLPAG_DIALOG DIALOGEX 0, 0, 299, 207
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "dlPAG Parameters"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,242,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,242,24,50,14
+    LTEXT           "A_dlPAG = ",IDC_STATIC,56,35,38,8
+    LTEXT           "B_dlPAG = ",IDC_STATIC,56,64,38,8
+    LTEXT           "C_dlPAG = ",IDC_STATIC,56,92,38,8
+    EDITTEXT        IDC_A_DLPAG_EDIT,94,33,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_B_DLPAG_EDIT,94,62,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_C_DLPAG_EDIT,94,90,40,14,ES_AUTOHSCROLL
+END
+
+IDD_INTEGRATE_DIALOG DIALOGEX 0, 0, 251, 148
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "Integration Parameters"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,194,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,194,24,50,14
+    LTEXT           "Delta T = ",IDC_STATIC,70,49,32,8
+    LTEXT           "Number of Time Steps = ",IDC_STATIC,23,76,79,8
+    EDITTEXT        IDC_DELTAT_EDIT,102,47,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_NUMSTEPS_EDIT,102,73,40,14,ES_AUTOHSCROLL
+    LTEXT           "Delay Loop = ",IDC_STATIC,57,105,45,8
+    EDITTEXT        IDC_NDELAY_EDIT,102,103,40,14,ES_AUTOHSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "BPDBrain MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "BPDBrain\0"
+            VALUE "LegalCopyright", "Copyright (C) 2008\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "BPDBrain.EXE\0"
+            VALUE "ProductName", "BPDBrain Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_BPDBRAIN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 658
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 432
+    END
+
+    IDD_VMPFC_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 282
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 159
+        HORZGUIDE, 159
+    END
+
+    IDD_BA_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 10
+        RIGHTMARGIN, 327
+        VERTGUIDE, 74
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_ICM1_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 13
+        RIGHTMARGIN, 302
+        VERTGUIDE, 96
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 208
+    END
+
+    IDD_ICM2_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 292
+        VERTGUIDE, 81
+        VERTGUIDE, 127
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 208
+    END
+
+    IDD_CEA_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        VERTGUIDE, 86
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 200
+    END
+
+    IDD_VLPAG_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 294
+        VERTGUIDE, 92
+        VERTGUIDE, 141
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 201
+    END
+
+    IDD_DLPAG_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 292
+        VERTGUIDE, 94
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 200
+    END
+
+    IDD_INTEGRATE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        VERTGUIDE, 102
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 141
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About BPDBrain..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\BPDBrain.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
